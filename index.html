@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sketchpad</title>
+	<link href="css/application.css" type="text/css" rel="stylesheet"/>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="js/application.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="heading">SKETCHPAD</div>
+	<div id = "grid"></div>
+	<div id = "controls">
+		<grid id="color" class="panel">
+			<ul>
+				<li>RED <input type="radio" name="color-val" value="red"></li>
+				<li>BLUE <input type="radio" name="color-val" value="blue"></li>
+				<li>GREEN<input type="radio" name="color-val" value="green"></li>
+				<li>YELLOW<input type="radio" name="color-val" value="yellow"></li>
+				<li>BLACK<input type="radio" name="color-val" value="black"></li>
+				<li>RANDOM<input type="radio" name="color-val" value="random"></li>;
+			</ul>
+		</grid>
+		<grid id="buttons" class="panel">
+			<button id="clear" onclick="clearGrid()">CLEAR GRID</button>
+			<button id="change" onclick="changeGrid()">CHANGE GRID</button>
+		</grid>
+	</div>
+</body>
+</html>

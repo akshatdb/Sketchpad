@@ -1,0 +1,47 @@
+#heading{
+	font-family : Arial;
+	color : grey;
+	font-size:60px;
+	margin : 0 auto;
+	text-align: center;
+}
+body{
+	margin : 0px auto;
+	width : 740px;
+	height : 840px;
+	border : 1px solid black;
+	box-sizing:border-box;
+}
+#grid{
+	border : 5px solid grey;
+	margin : 0 auto;
+	line-height:0;
+	width:640px;
+	padding:0;
+}
+.pixel{
+
+	display:inline-block;
+}
+.panel{
+	text-align:center;
+	display : block;
+}
+li{
+	display : inline;
+	padding : 0 10px;
+}
+#color{
+	font-family : Arial;
+	color : grey;
+}
+button{
+	padding : 10px;
+	margin: 5px 20px;
+	border : none;
+	color:#585858;
+	font-weight: bold;
+}
+button:hover{
+	background-color: #acacac;
+}
